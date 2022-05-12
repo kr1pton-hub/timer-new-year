@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --numbers-color: rgb(255, 78, 78);
+    --text-color: rgb(226, 226, 226);
+}
+
+
+body {
+    font-family: 'Lily Script One', cursive;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: url("wallpaper/wallpaper.jpg");
+    color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.time-count {
+    background-color: rgb(48, 48, 48);
+    border-radius: 12px;
+    width: 500px;
+    height: 150px;
+    padding: 60px 70px;
+}
+
+.time-title {
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 21px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.time-content {
+    display: flex;
+    justify-content: center;
+}
+
+.time-item {
+    text-align: center;
+}
+
+.time-val {
+    min-width: 60px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    color: var(--numbers-color);
+}
+
+.time-separator {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: var(--numbers-color);
+    margin: 0 5px;
+}
+
+.time-text {
+    font-family: 'Lobster', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+    color: var(--text-color);
+}
