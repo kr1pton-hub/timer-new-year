@@ -1,0 +1,136 @@
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .time-count {
+        border-radius: 5px;
+        width: 340px;
+        height: 100px;
+        padding: 35px 25px;
+    }
+    
+    .time-title {
+        margin: 0px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 10px;
+    }
+
+    .time-item {
+        text-align: center;
+    }
+    
+    .time-val {
+        min-width: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    
+    .time-separator {
+        
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0 6px;
+    }
+    
+    .time-text {
+        margin: 0 2px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 3px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .time-count {
+        border-radius: 5px;
+        width: 260px;
+        height: 90px;
+        padding: 30px 25px;
+    }
+    
+    .time-title {
+        margin: 0px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 10px;
+    }
+
+    .time-item {
+        text-align: center;
+    }
+    
+    .time-val {
+        min-width: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    
+    .time-separator {
+        
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0 6px;
+    }
+    
+    .time-text {
+        margin: 0 2px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 3px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .time-count {
+        border-radius: 5px;
+        width: 220px;
+        height: 80px;
+        padding: 20px 25px;
+    }
+    
+    .time-title {
+        margin: 0px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .time-item {
+        text-align: center;
+    }
+    
+    .time-val {
+        min-width: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    
+    .time-separator {
+        
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0 6px;
+    }
+    
+    .time-text {
+        margin: 0 2px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 3px;
+    }
+}
