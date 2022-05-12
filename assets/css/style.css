@@ -3,7 +3,8 @@
 
 :root {
     --numbers-color: rgb(255, 78, 78);
-    --text-color: rgb(48, 190, 102);
+    --text-color: rgb(35, 182, 109);
+    --background-color: rgb(255, 255, 255);
 }
 
 
@@ -13,7 +14,7 @@ body {
     padding: 0;
     border: none;
     background: url("wallpaper/wallpaper.jpg");
-    color: aliceblue;
+    color: var(--text-color);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -35,7 +36,7 @@ body {
 }
 
 .time-count {
-    background-color: rgb(48, 48, 48);
+    background-color: var(--background-color);
     border-radius: 12px;
     width: 500px;
     height: 150px;
